@@ -14,15 +14,11 @@ Comment.init(
             autoIncrement: true
           },
           comment_text: {
-            type: DataTypes.STRING,
-            allowNull: false
-          },
-          post_url: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false,
             validate: {
-              isURL: true
-            }
+                len: [1]
+              }
           },
           user_id: {
             type: DataTypes.INTEGER,
@@ -30,8 +26,16 @@ Comment.init(
               model: 'user',
               key: 'id'
             }
-          }
-    },
+          },
+          post_id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            references: {
+              model: 'post',
+              key: 'id'
+            }
+        }
+      },
     {
       sequelize,
       freezeTableName: true,
