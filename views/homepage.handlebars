@@ -1,18 +1,16 @@
-<ol class="post-list">
-  {{#each posts as |post|}}
-  <li>
-    <article class="post">
-      <div class="title">
-        <a href="{{post.post_url}}" target="_blank">{{post.title}}</a>
-        <span>({{post.post_url}})</span>
-      </div>
-      <div class="meta">
-        {{post.vote_count}} point(s) by {{post.user.username}} on
-        {{post.created_at}}
-        |
-        <a href="/post/{{post.id}}">{{post.comments.length}} comment(s)</a>
-      </div>
-    </article>
-  </li>
-  {{/each}}
-</ol>
+<div class="hero-image rounded shadow-sm p-3 mb-5 bg-white rounded">
+  <div class="hero-text">
+    <h1>Tech Deck Blog</h1>
+    <p>A community for developers!</p>
+  </div>
+</div>
+<div>
+  <h4 class="text-center text">Recent Posts</h4>
+</div>
+<div class="container">
+    <div class="row pt-3">
+   {{#each posts as |post|}}
+    {{> post-info post}}
+   {{/each}}
+   </div>
+</div>
