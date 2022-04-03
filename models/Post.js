@@ -17,6 +17,13 @@ Post.init({
     type: DataTypes.STRING,
     allowNull: false
   },
+  post_text: {
+    type: DataTypes.TEXT,
+    allowNull: false,
+    validate: {
+      len: [1]
+    }
+  },
   post_url: {
     type: DataTypes.STRING,
     allowNull: false,

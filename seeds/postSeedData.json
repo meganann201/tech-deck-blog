@@ -1,0 +1,20 @@
+[
+    {
+        "title": "What can you do to enhance your programming abilities?",
+        "post_url": "https://dev.to/saaaa_/how-can-i-improve-my-programming-skills-1op2",
+        "post_text": "In order to become a better programmer, it's important to know that there are many ways to do so. One of the best ways is to simply practice, practice and practice some more. This can be hard if you're trying to learn programming in your free time or on your own. There are several ways you can get around this: Take a class - Typically these classes are at night or on the weekends and shouldn't cost much at all. Find someone you can study with - Many programmers teach themselves how to code online or through books, but learning from a book isn't always easy. If you're lucky enough to know another programmer, ask them if they would be willing to show you their code and sit down with you while they work through it. You could also try finding a mentor - many coders go through the bootcamp program Treehouse which offers mentoring as part of its courses. Talk to other programmers- If there's an active programming community in your area, get out there and talk to people who are doing what you want to do. Get into groups where developers are talking about their work and how they've learned what they know. Go outside! Yes, really - It sounds strange but going outside will actually help improve your programming skills because being cooped up inside all day long staring at a computer screen is not good for anyone's health (or creativity!). Don't worry too much about what other people are doing. Everyone has their own path they're on. Your journey will be unique to you, so don't worry about what other people are doing or what they seem to have achieved. Focus on your own goals and work hard to achieve them, rather than being jealous of other people. Don't compare yourself to others because you'll never even the playing field that way.",
+        "user_id": 1
+    }, 
+    {
+        "title": "What is Ruby On Rails?",
+        "post_url": "rubyonrails.com",
+        "post_text": "Ruby on Rails (or Rails) is an open-source web application development framework written in the Ruby programming language. It's one of the most popular Ruby libraries and one of the top reasons developers choose to learn Ruby. Modern web applications can be very complex with many layers. Rails makes web development easier, providing a pre-built structure for development and everything you need to build a web app. In this article, we'll look at what Rails is used for, its advantages and disadvantages, and what jobs you can get if you know this framework. Then, we'll show you how to get started using it to build your own web apps.",
+        "user_id": 2
+    }, 
+    {
+        "title": "Why you should use Ruby On Rails.",
+        "post_url": "code123.com",
+        "post_text": "When RoR entered the scene in 2005, it introduced a fresh approach to building Web applications. One of the things Rails brought along was the convention-over-configuration software design paradigm that facilitates developer work on many levels—for example, by eliminating the need to write boilerplate code. Together with Django, Python’s most popular Web framework released the same year, Rails propagated the use of the MVC pattern and good development practices, such as the DRY principle. The Rails way of Web development unshackled devs from the tedious parts of coding, freeing them up to focus on the business features and logic of the app. It also increased productivity and helped developers deliver MVPs and startup apps much faster.",
+        "user_id": 3
+    }
+]

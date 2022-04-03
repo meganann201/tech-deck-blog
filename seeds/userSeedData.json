@@ -1,0 +1,32 @@
+[
+    {
+        "username": "meganann201",
+        "email": "meganann201@gmail.com",
+        "password": "hello123"
+    },
+    {
+        "username": "eric101",
+        "email": "eric@gmail.com",
+        "password": "hello"
+    },
+    {
+        "username": "vicky305",
+        "email": "vicky@gmail.com",
+        "password": "passsword123"
+    },
+    {
+        "username": "johnapple",
+        "email": "john@gmail.com",
+        "password": "1234567"
+    },
+    {
+        "username": "ronald",
+        "email": "rdog@gmail.com",
+        "password": "rworld"
+    },
+    {
+        "username": "jessica444",
+        "email": "j444@gmail.com",
+        "password": "supersecret"
+    }
+]
