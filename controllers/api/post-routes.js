@@ -62,8 +62,8 @@ router.get("/", (req, res) => {
       Post.create({
         title: req.body.title,
         post_url: req.body.post_url,
-        post_text: req.params.post_text,
-        user_id: req.body.user_id
+        post_text: req.body.post_text,
+        user_id: req.session.user_id
       })
         .then(dbPostData => res.json(dbPostData))
         .catch(err => {
